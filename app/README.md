@@ -12,6 +12,11 @@ A new Flutter project.
 ### Build app-debug.apk
 `flutter build apk --debug`
 
+## iOS
+### Build release iOS 
+`flutter build ios`
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
