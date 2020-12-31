@@ -2,10 +2,15 @@
 
 A new Flutter project.
 
-## Run in Chrome
+## Web
+### Run in Chrome
 `flutter run -d chrome`
 ### Build Web
 `flutter build web --release`
+
+## Android
+### Build app-debug.apk
+`flutter build apk --debug`
 
 ## Getting Started
 
