@@ -4,6 +4,8 @@ A new Flutter project.
 
 ## Run in Chrome
 `flutter run -d chrome`
+### Build Web
+`flutter build web --release`
 
 ## Getting Started
 
