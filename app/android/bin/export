@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+
+# Set ANDROID_HOME:
+export ANDROID_HOME=~/Library/Android/sdk
+# Add path for abd and emulator:
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
