@@ -16,6 +16,12 @@ A new Flutter project.
 ### Build release iOS 
 `flutter build ios`
 
+## Integration testing
+### iOS tests
+`flutter drive --driver integration_test/driver.dart --target integration_test/app_test.dart`
+### Chrome tests
+* `/opt/chromedriver --port=4444`
+* `flutter drive --driver integration_test/driver.dart --target integration_test/app_test.dart -d web-server`
 
 ## Getting Started
 
