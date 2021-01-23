@@ -7,6 +7,11 @@ A new Flutter project.
 `flutter run -d chrome`
 ### Build Web
 `flutter build web --release`
+### Release build/web to https://sahawut.github.io/web-flutter
+#### Change base href 
+Change build/web/index.html `<base href="/">` to `<base href="/web-flutter/">`
+#### Commit to github
+`cp -rf build/web/* ../../web-flutter` 
 
 ## Android
 ### Build app-debug.apk
