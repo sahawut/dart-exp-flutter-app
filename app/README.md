@@ -1,6 +1,16 @@
 # app
-
 A new Flutter project.
+
+## Prerequists
+### Flutter SDK (including Dart SDK)
+https://flutter.dev/docs/get-started/install
+
+Flutter SDK has Dart SDK in `flutter/bin/cache/dart-sdk`
+#### enable-web
+* `flutter channel beta`
+* `flutter upgrade`
+* `flutter config --enable-web`
+
 
 ## Web
 ### Run in Chrome
